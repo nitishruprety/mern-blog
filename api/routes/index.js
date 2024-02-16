@@ -28,6 +28,8 @@ router.route('/articles/:id')
 
 router.post('/login', AuthCtrl.login)
 
+router.get('/auth/user', auth, AuthCtrl.user)
+
 // Front URLs
 router.get('/article/all', FrontCtrl.articles)
 router.get('/article/:id', FrontCtrl.article)

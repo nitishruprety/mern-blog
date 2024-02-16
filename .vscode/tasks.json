@@ -8,6 +8,14 @@
 			"problemMatcher": [],
 			"label": "dev - api",
 			"detail": "nodemon ."
+		},
+		{
+			"type": "npm",
+			"script": "dev",
+			"path": "ui",
+			"problemMatcher": [],
+			"label": "dev - ui",
+			"detail": "vite"
 		}
 	]
 }

@@ -30,7 +30,9 @@ class AuthCtrl {
         }
     }
     
-    user = async(req, res, next) => {}
+    user = async(req, res, next) => {
+        res.send(req.user)
+    }
 
 }
 
